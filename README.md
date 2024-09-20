@@ -1,1 +1,1 @@
-# CST8913
+Lab 2 - IaaS/PaaS architecture
