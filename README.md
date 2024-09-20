@@ -21,3 +21,17 @@ This step lies mainly on VM.
 2. Configuring of networks so VMs can communicate with each other
 3. Once we are done configuring networks and creation of VM we can deploy the application.
 4. Lastly, we configure the firewalls and security.
+
+B). ![mermaid-diagram-2024-09-19-192013](https://github.com/user-attachments/assets/891f21e8-cfc8-4b39-92fb-37f7ce8e5de6)
+
+Architecture of PaaS:-
+
+1. So the React frontend VM is responsible for user interactions and making API calls to the backend.
+2. I have also added Load balancer receives API calls from react and distributes incoming traffic to the app appropriate back-end services
+3. Processes the API requests received from the load balancer
+4. The Flask server queries this VM for data storage and retrieval
+5. I have used cloud storage (s3) for large file stroage especially with Images and stuff.
+
+PaaS Deployment
+
+![Goma](https://github.com/user-attachments/assets/77cd004a-a92a-44ab-a247-50ed0f20f50b)
