@@ -35,3 +35,11 @@ Architecture of PaaS:-
 PaaS Deployment
 
 ![Goma](https://github.com/user-attachments/assets/77cd004a-a92a-44ab-a247-50ed0f20f50b)
+
+I felt like the image is very straight forward. 
+1. I have deployed frontend in vercel.
+2. Backend in Heroku
+3. Also made sure, I have deloyed the database in Heroku Postgres (s3)
+4. Default/prebuilt Load balancer in heroku that we don't have to worry about setting up as we did in IaaS Model
+5. After I have used Azure Blob storage for Large files and backups
+
