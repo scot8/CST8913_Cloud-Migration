@@ -1,9 +1,9 @@
-# purpose of lab
+# Purpose of lab 4
 Design Rehosting Migration V2 in your Cloud Migration course is to develop a high-level design (HLD) document for a lift-and-shift migration of an application consisting of two virtual machines: WebServerVM and SQLVM
 
 ![Untitled diagram-2024-10-06-180554](https://github.com/user-attachments/assets/df380630-de6b-4544-9e7e-f0d0e2a2fe60)
 
-#### Components
+## Components
 
 1. **WebServerVM**:
    - **Node.JS**: This represents the existing virtual machine (VM) hosting a Node.js application.
@@ -25,7 +25,7 @@ Design Rehosting Migration V2 in your Cloud Migration course is to develop a hig
 6. **Azure Managed SQL Database**:
    - The SQL Server database from SQLVM is backed up and migrated to Azure SQL Database, a fully managed relational database service.
 
-#### Interactions
+## Interactions
 
 1. **Containerization**:
    - The Node.js application on WebServerVM is containerized into a Docker image.
