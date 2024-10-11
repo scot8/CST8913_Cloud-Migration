@@ -1,4 +1,4 @@
-# Purpose of lab 4
+# Purpose of lab 5
 The purpose of this lab is to design a High-Level Design (HLD) document for migrating a 3-tier eCommerce application to a cloud-native architecture, focusing on scalability, availability, and disaster recovery. Students will learn to create a solution diagram and outline the migration process while leveraging cloud services from providers like AWS or GCP
 
 ![png](https://github.com/user-attachments/assets/b6646e4b-4ec8-4ab0-816c-a0e4abbe6014)
