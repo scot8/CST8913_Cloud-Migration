@@ -3,7 +3,7 @@ The purpose of this lab is to design a High-Level Design (HLD) document for migr
 
 ![png](https://github.com/user-attachments/assets/b6646e4b-4ec8-4ab0-816c-a0e4abbe6014)
 
-## Application Overview
+## 1. Application Overview
 
 The current eCommerce application is structured in a 3-tier architecture consisting of:
 
@@ -27,7 +27,7 @@ The migration to a cloud-native architecture on AWS aims to enhance scalability,
 **EC2:** Deployed both the frontend and backend on separate EC2 instances.
 
 
-## Scalability, Availability, and Disaster Recovery
+## 3. Scalability, Availability, and Disaster Recovery
 
 - **Scalability**: The architecture employs auto-scaling groups for both frontend and backend services, allowing the application to handle fluctuating traffic efficiently. The Amazon RDS Read Replica ensures that read requests are offloaded from the primary database, improving performance during high traffic periods.
 
@@ -35,7 +35,7 @@ The migration to a cloud-native architecture on AWS aims to enhance scalability,
 
 - **Disaster Recovery**: Regular automated backups of the RDS database, coupled with read replicas, ensure data durability. In case of a failure, the system can be quickly restored within the required downtime of less than 2 hours.
 
-### Migration Process
+## 4. Migration Process
 
 1. **Setting up the cloud**:
    - I will configure VPC, Subnets all the networking parts.
