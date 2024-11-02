@@ -1,4 +1,4 @@
-# GCP Infrastructure Configuration
+# GCP Infrastructure Configuration (PLEASE REFEER TO THE CSV FILE FOR ANY CLARIFICATON NEEDED)
 
 This document details the configuration, purpose, and cost breakdown for various instances and services set up on Google Cloud Platform (GCP) for a scalable, secure, and efficient infrastructure.
 
