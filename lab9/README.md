@@ -163,4 +163,71 @@ A single instance suffices for batch tasks, given their asynchronous nature and 
 
 ## 7. Data Analytics (BigQuery)
 
-- **Configuration**: 100 baseline slots, 15 TiB storage, EU multi-region
+- **Configuration**: 100 baseline slots, 15 TiB storage, EU multi-region, Enterprise Edition
+- **Monthly Cost**: $6,570.40
+
+### Purpose and Use Cases
+BigQuery enables large-scale data analytics with autoscaling, ideal for processing vast datasets. The EU storage meets GDPR compliance, while 200 autoscaling slots support peak demands.
+
+---
+
+## 8. Databases
+
+### Cloud SQL (MySQL)
+- **Configuration**: 16 vCPUs, 60.4 GB RAM, 5 TiB SSD, Iowa
+- **Monthly Cost**: $1,661.43
+
+### Purpose
+Managed MySQL instance supports reliable transactional workloads with automated backups and scaling.
+
+### Use Cases
+Transaction processing, data analytics, user authentication.
+
+### Bigtable
+- **Configuration**: 4 nodes, 10 TiB SSD, Iowa
+- **Monthly Cost**: $3,638.80
+
+### Purpose
+Bigtable is designed for high-throughput NoSQL applications, ideal for large datasets needing low-latency access.
+
+### Use Cases
+IoT data, recommendation engines, real-time analytics.
+
+---
+
+## 9. Networking (Cloud Load Balancing & CDN)
+
+- **Configuration**: 100 GiB inbound/outbound data, CDN across North America and Europe
+- **Monthly Cost**: $47.67
+
+### Purpose
+Load Balancing distributes traffic for high availability; CDN caches content to reduce latency.
+
+### Use Cases
+Web/mobile app performance, media delivery, global API distribution.
+
+---
+
+## 10. Storage (Cloud Storage)
+
+- **Configuration**: 5,000 GiB in Iowa, Standard storage class
+- **Monthly Cost**: $99.90
+
+### Purpose
+Object storage for files, backups, and static content. Ensures durability and high availability with regional replication.
+
+### Use Cases
+Backups, hosting static resources, analytics data.
+
+---
+
+## 11. Security (Cloud Key Management Service - KMS)
+
+- **Configuration**: 4 key versions, 15,000 key operations
+- **Monthly Cost**: $0.29
+
+### Purpose
+Centralized encryption management for securing sensitive data across GCP services.
+
+### Use Cases
+Data encryption, secure access control.
